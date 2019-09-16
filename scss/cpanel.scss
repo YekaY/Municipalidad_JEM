@@ -1,0 +1,28 @@
+$prototype: false;
+$dev: false;
+
+$Azul-oscuro: #022d5d;
+$Azul-claro: #0750aa;
+$Amarillo: #fda729;
+$cris-claro: #d3d1d1;
+$Cris-oscuro: #494949;
+$Blanco: #ffffff;
+
+@import "ed-grid";
+.full-ed {
+  @include full;
+  .ed-conten {
+    @include ed-container;
+    .formulario {
+      @include edItem(100, 100, 100);
+
+      .text_field {
+        background-color: white;
+        background-image: url("searchicon.png");
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+      }
+    }
+  }
+}
