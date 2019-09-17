@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu_bar {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 30px;
+  background: #8B012B;
+}
+
+header nav {
+  margin-top: -98px;
+  background: #8B012B;
+  z-index: 10;
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+header nav ul {
+  list-style: none;
+  font-size: 12.5px;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+header nav ul li:hover {
+  color: #fff;
+}
+header nav ul li a:hover {
+  background-color: #8B012B;
+  color: #fda72a;
+  /*border-bottom: #fda72a 1px solid;*/
+}
+header nav ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 2px;
+}
+
+header nav ul li a span {
+  margin-right: 10px;
+}
+
+header nav ul li:hover .children {
+  display: block;
+}
+
+header nav ul li .children {
+  display: none;
+  background: rgb(107, 2, 34);
+  position: absolute;
+  width: 250%;
+  z-index: 9;
+}
+
+header nav ul li .children li {
+  display: block;
+  overflow: hidden;
+  margin-top: 5px;
+  background-color: rgb(107, 2, 34);
+  border-bottom: 1px solid rgb(112, 3, 36);
+
+}
+
+header nav ul li .children li a {
+  display: block;
+  font-size: 12px;
+}
+
+header nav ul li .children li a span {
+  float: right;
+  position: relative;
+  font-size: 5px;
+  top: 3px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+header nav ul li .caret {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  header nav {
+    background: #5C021D;
+    margin-top: 100px;
+  }
+  body {
+    padding-top: 100px;
+  }
+  .bg-top{
+    display: none;
+  }
+  .header-xl {
+    display: none;
+  }
+  header {
+    background-color: #fda72a;
+    height: 1px;
+  }
+
+  .menu_bar {
+    display: block;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: #5C021D;
+  }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+    margin-top: -13px;
+  }
+
+  header nav {
+    width: 80%;
+    height: calc(100% - 80px);
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
+    margin-top: 65px;
+  }
+
+  header nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  header nav ul li a {
+    display: block;
+  }
+
+  header nav ul li:hover .children {
+    display: none;
+  }
+
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+
+  header nav ul li .children li a {
+    margin-left: 20px;
+  }
+
+  header nav ul li .caret {
+    float: right;
+  }
+  .slider
+    .con
+    .ftco-section
+    .container
+    .row
+    .car
+    .carousel-testimony
+    .item
+    .testimony-wrap {
+    height: 300px;
+  }
+}

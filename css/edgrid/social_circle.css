@@ -1,0 +1,100 @@
+body {
+  background-color: #ece9e9;
+  margin-top: 0px; }
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .social-buttons__button {
+    margin: 13px 5px 0; }
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  text-decoration: none; }
+  .social-button__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 100%;
+    background: #fff;
+    text-align: center; }
+  .social-button i,
+  .social-button svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s; }
+  .social-button i {
+    font-size: 20px; }
+  .social-button svg {
+    height: 40%;
+    width: 40%; }
+  .social-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s; }
+  .social-button:focus, .social-button:hover {
+    color: #fff; }
+    .social-button:focus::after, .social-button:hover::after {
+      width: 100%;
+      height: 100%;
+      margin-left: -50%; }
+  .social-button--mail {
+    color: #5C021D; }
+    .social-button--mail::after {
+      background: #5C021D; }
+  .social-button--facebook {
+    color: #5C021D; }
+    .social-button--facebook::after {
+      background: #5C021D; }
+  .social-button--linkedin {
+    color: #5C021D; }
+    .social-button--linkedin::after {
+      background: #5C021D; }
+  .social-button--github {
+    color: #5C021D; }
+    .social-button--github::after {
+      background: #5C021D; }
+  .social-button--codepen {
+    color: #5C021D; }
+    .social-button--codepen::after {
+      background: #5C021D; }
+  .social-button--steam {
+    color: #5C021D; }
+    .social-button--steam::after {
+      background: #5C021D; }
+  .social-button--snapchat {
+    color: #5C021D; }
+    .social-button--snapchat::after {
+      background: #5C021D; }
+  .social-button--twitter {
+    color: #5C021D; }
+    .social-button--twitter::after {
+      background: #5C021D; }
+  .social-button--instagram {
+    color: #5C021D; }
+    .social-button--instagram::after {
+      background: #5C021D; }
+  .social-button--npmjs {
+    color: #5C021D; }
+    .social-button--npmjs::after {
+      background: #5C021D; }
+  .social-button--youtube {
+    color: #5C021D; }
+    .social-button--youtube::after {
+      background: #5C021D; }
