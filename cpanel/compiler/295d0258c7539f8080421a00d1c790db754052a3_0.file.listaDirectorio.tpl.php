@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2019-09-09 03:27:04
+<?php /* Smarty version 3.1.27, created on 2019-09-18 16:20:29
          compiled from "C:\Users\Erika\Desktop\TRABAJO DE CAMARA DE COMERCIO\CAMARA DE COMERCIO\KEY\root\molle\cpanel\styles\templates\public\listaDirectorio.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:274535d75c6886bb874_26082282%%*/
+/*%%SmartyHeaderCode:215025d82594dbbe0a4_36188994%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '295d0258c7539f8080421a00d1c790db754052a3' => 
     array (
       0 => 'C:\\Users\\Erika\\Desktop\\TRABAJO DE CAMARA DE COMERCIO\\CAMARA DE COMERCIO\\KEY\\root\\molle\\cpanel\\styles\\templates\\public\\listaDirectorio.tpl',
-      1 => 1567579651,
+      1 => 1568823596,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '274535d75c6886bb874_26082282',
+  'nocache_hash' => '215025d82594dbbe0a4_36188994',
   'variables' => 
   array (
     'posts' => 0,
@@ -21,13 +21,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_5d75c688795423_61209671',
+  'unifunc' => 'content_5d82594dc726e4_22757243',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_5d75c688795423_61209671')) {
-function content_5d75c688795423_61209671 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_5d82594dc726e4_22757243')) {
+function content_5d82594dc726e4_22757243 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '274535d75c6886bb874_26082282';
+$_smarty_tpl->properties['nocache_hash'] = '215025d82594dbbe0a4_36188994';
 ?>
 <!doctype html>
 <html>
@@ -195,50 +195,17 @@ $_smarty_tpl->properties['nocache_hash'] = '274535d75c6886bb874_26082282';
                                                                           </div>
 
                                                                           <div class="form-group">
-                                                                              <label for="exampleInputPassword1">NOMBRE DE EMPRESA</label>
+                                                                              <label for="exampleInputPassword1">TITULO DE OBRAS</label>
                                                                               <input type="text" class="form-control" id="nombre" placeholder="">
                                                                           </div>
                                                                       
                                                                           <div class="form-group">
-                                                                              <label for="exampleInputEmail1">TIPO DE EMPRESA</label>                                         
+                                                                              <label for="exampleInputEmail1">TIPO DE OBRAS</label>                                         
                                                                                     <select id="tipo" class="form-control">                                                                                    
-                                                                                        <option value="Accesorios" >Accesorios</option>
-                                                                                        <option value="Administradoras_de_Fondos_de_Pensiones">Administradorasde_Fondos_de_Pensiones</option>
-                                                                                        <option value="Agroindustrial">Agroindustrial</option>
-                                                                                        <option value="Agropecuario">Agropecuario</option>
-                                                                                        <option value="Alimentos_Bebidas_e_Insumos">Alimentos_Bebidas_e_Insumos</option>
-                                                                                        <option value="Capacitaciones_y_Recursos_Humanos">Capacitaciones_y_Recursos_Humanos</option>
-                                                                                        <option value="Comercio_Exterior">Comercio_Exterior</option>
-                                                                                        <option value="Compañias_de_Seguros">Compañias_de_Seguros</option>
-                                                                                        <option value="Comunicacione">Comunicacione</option>
-                                                                                        <option value="Constructora">Constructora</option>
-                                                                                        <option value="Consultorias_y_Asesorias">Consultorias_y_Asesorias</option>
-                                                                                        <option value="Corredores_de_Seguros">Corredores_de_Seguros</option>
-                                                                                        <option value="Diversos">Diversos</option>
-                                                                                        <option value="Educación">Educación</option>
-                                                                                        <option value="Estructuras_Metálicas_Madera_y_Concreto">Estructuras_Metálicas_Madera_y_Concreto</option>
-                                                                                        <option value="Fondos_Colectivos">Fondos_Colectivos</option>
-                                                                                        <option value="Industriales">Industriales</option>
-                                                                                        <option value="Información_Jurídica">Información_Jurídica</option>
-                                                                                        <option value="Inmobiliaria">Inmobiliaria</option>
-                                                                                        <option value="Instituciones_Financieras_y_de_Crédito">Instituciones_Financieras_y_de_Crédito</option>
-                                                                                        <option value="Jurídicos_y_Notarias">Jurídicos_y_Notarias</option>
-                                                                                        <option value="Marketing_y_Publicidad">Marketing_y_Publicidad</option>
-                                                                                        <option value="Mayorista">Mayorista</option>
-                                                                                        <option value="Micro_Finanzas">Micro_Finanzas</option>
-                                                                                        <option value="Mineras">Mineras</option>
-                                                                                        <option value="Minorista">Minorista</option>
-                                                                                        <option value="Proveedores_de_Construcción">Proveedores_de_Construcción</option>
-                                                                                        <option value="Proveedores_de_Mineria">Proveedores_de_Mineria</option>
-                                                                                        <option value="Salud">Salud</option>
-                                                                                        <option value="Seguridad">Seguridad</option>
-                                                                                        <option value="Servicios">Servicios</option>
-                                                                                        <option value="Tecnologías_de_Información_y_Comunicaciones">Tecnologías_de_Información_y_Comunicaciones</option>
-                                                                                        <option value="Textil_Calzado_y_Joyeria">Textil_Calzado_y_Joyeria</option>
-                                                                                        <option value="Transporte">Transporte</option>
-                                                                                        <option value="Turismo">Turismo</option>
-                                                                                        <option value="Vehículos_Mayores">Vehículos_Mayores</option>
-                                                                                        <option value="Vehículos_Menores">Vehículos_Menores</option>
+                                                                                        <option value="Obras_Principales" >Obras_Principales</option>
+                                                                                        <option value="Obras_Entregadas">Obras_Entregadas</option>
+                                                                                        <option value="Obras_en_Ejecucion">Obras_en_Ejecucion</option>
+                                                                                        <option value="Obras_en_Proyecto">Obras_en_Proyecto</option>
                                                                                     </select>                                                              
 
                                                                           </div>

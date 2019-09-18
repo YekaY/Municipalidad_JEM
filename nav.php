@@ -138,15 +138,7 @@
             </ul>
           </li>
           <li class="submenu">
-          <a href="index_obras.php"><span class=""></span>OBRAS PRINCIPALES<span class="caret "></span></a>
-            <ul class="children">
-              <li>
-                <a href="index_obras.php#parentHorizontalTab1" id="principal">OBRAS PRINCIPALES<span class="icon-dot"></span></a>
-              </li>
-              <li>
-                <a href="index_obras.php#parentHorizontalTab2" id="obraseje">OBRAS EN EJECUCIÓN<span class="icon-dot"></span></a>
-              </li>
-            </ul>
+          <a href="index_directorio.php"><span class=""></span>OBRAS PRINCIPALES<span class="caret "></span></a>
           </li>
           <li class="submenu">
             <a href="index_servicios.php"><span class=""></span>SERVICIOS<span class="caret "></span></a>

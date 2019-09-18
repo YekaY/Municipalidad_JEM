@@ -195,50 +195,18 @@ $_smarty_tpl->properties['nocache_hash'] = '41585d08a3d02b1971_00631259';
                                                                           </div>
 
                                                                           <div class="form-group">
-                                                                              <label for="exampleInputPassword1">NOMBRE DE EMPRESA</label>
+                                                                              <label for="exampleInputPassword1">TITULO DE OBRAS</label>
                                                                               <input type="text" class="form-control" id="nombre" placeholder="">
                                                                           </div>
                                                                       
                                                                           <div class="form-group">
-                                                                              <label for="exampleInputEmail1">TIPO DE EMPRESA</label>                                         
+                                                                              <label for="exampleInputEmail1">TIPO DE OBRAS</label>                                         
                                                                                     <select id="tipo" class="form-control">                                                                                    
-                                                                                        <option value="Accesorios" >Accesorios</option>
-                                                                                        <option value="Administradoras_de_Fondos_de_Pensiones">Administradorasde_Fondos_de_Pensiones</option>
-                                                                                        <option value="Agroindustrial">Agroindustrial</option>
-                                                                                        <option value="Agropecuario">Agropecuario</option>
-                                                                                        <option value="Alimentos_Bebidas_e_Insumos">Alimentos_Bebidas_e_Insumos</option>
-                                                                                        <option value="Capacitaciones_y_Recursos_Humanos">Capacitaciones_y_Recursos_Humanos</option>
-                                                                                        <option value="Comercio_Exterior">Comercio_Exterior</option>
-                                                                                        <option value="Compañias_de_Seguros">Compañias_de_Seguros</option>
-                                                                                        <option value="Comunicacione">Comunicacione</option>
-                                                                                        <option value="Constructora">Constructora</option>
-                                                                                        <option value="Consultorias_y_Asesorias">Consultorias_y_Asesorias</option>
-                                                                                        <option value="Corredores_de_Seguros">Corredores_de_Seguros</option>
-                                                                                        <option value="Diversos">Diversos</option>
-                                                                                        <option value="Educación">Educación</option>
-                                                                                        <option value="Estructuras_Metálicas_Madera_y_Concreto">Estructuras_Metálicas_Madera_y_Concreto</option>
-                                                                                        <option value="Fondos_Colectivos">Fondos_Colectivos</option>
-                                                                                        <option value="Industriales">Industriales</option>
-                                                                                        <option value="Información_Jurídica">Información_Jurídica</option>
-                                                                                        <option value="Inmobiliaria">Inmobiliaria</option>
-                                                                                        <option value="Instituciones_Financieras_y_de_Crédito">Instituciones_Financieras_y_de_Crédito</option>
-                                                                                        <option value="Jurídicos_y_Notarias">Jurídicos_y_Notarias</option>
-                                                                                        <option value="Marketing_y_Publicidad">Marketing_y_Publicidad</option>
-                                                                                        <option value="Mayorista">Mayorista</option>
-                                                                                        <option value="Micro_Finanzas">Micro_Finanzas</option>
-                                                                                        <option value="Mineras">Mineras</option>
-                                                                                        <option value="Minorista">Minorista</option>
-                                                                                        <option value="Proveedores_de_Construcción">Proveedores_de_Construcción</option>
-                                                                                        <option value="Proveedores_de_Mineria">Proveedores_de_Mineria</option>
-                                                                                        <option value="Salud">Salud</option>
-                                                                                        <option value="Seguridad">Seguridad</option>
-                                                                                        <option value="Servicios">Servicios</option>
-                                                                                        <option value="Tecnologías_de_Información_y_Comunicaciones">Tecnologías_de_Información_y_Comunicaciones</option>
-                                                                                        <option value="Textil_Calzado_y_Joyeria">Textil_Calzado_y_Joyeria</option>
-                                                                                        <option value="Transporte">Transporte</option>
-                                                                                        <option value="Turismo">Turismo</option>
-                                                                                        <option value="Vehículos_Mayores">Vehículos_Mayores</option>
-                                                                                        <option value="Vehículos_Menores">Vehículos_Menores</option>
+                                                                                        <option value="Obras_Principales" >Obras_Principales</option>
+                                                                                        <option value="Obras_Entregadas">Obras_Entregadas</option>
+                                                                                        <option value="Obras_en_Ejecucion">Obras_en_Ejecucion</option>
+                                                                                        <option value="Obras_en_Proyecto">Obras_en_Proyecto</option>
+                                                                    
                                                                                     </select>                                                              
 
                                                                           </div>
