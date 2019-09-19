@@ -397,7 +397,17 @@
       window.location = "index_nosotros.php#parentHorizontalTab8";
       location.reload();
     });
-   
+     //________________________obras____________
+     $("#principal").click(function() {
+      setTimeout("location.replace('index_obras.php#parentHorizontalTab1');", 0);
+      window.location = "index_obras.php#parentHorizontalTab1";
+      location.reload();
+    });
+     $("#obraseje").click(function() {
+      setTimeout("location.replace('index_obras.php#parentHorizontalTab2');", 0);
+      window.location = "index_obras.php#parentHorizontalTab2";
+      location.reload();
+    });
     //________________________servicios____________
     $("#rodaje").click(function() {
       setTimeout("location.replace('index_servicios.php#parentHorizontalTab1');", 0);
